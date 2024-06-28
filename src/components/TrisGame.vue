@@ -1,10 +1,11 @@
 <template>
+  <h1>TIC-TAC-TOE</h1>
   <div class="game">
     <PlayerInputPopup v-if="!playersSet" @names-submitted="setPlayerNames" />
     <div v-else class="game-content">
       <div class="player-info">
-        <div>{{ players[0].name }}: {{ players[0].wins }} vittorie</div>
-        <div>{{ players[1].name }}: {{ players[1].wins }} vittorie</div>
+        <div class="p1">{{ players[0].name }}: {{ players[0].wins }}</div>
+        <div class="p2">{{ players[1].name }}: {{ players[1].wins }}</div>
       </div>
       <TrisBoard :squares="squares" @square-click="handleClick" />
       <div class="turn-info">{{ turnMessage }}</div>
@@ -91,16 +92,34 @@ export default {
 </script>
 
 <style scoped>
+
+h1 {
+  color: rgb(39, 172, 128);
+  font-size: 50px;
+  text-align: center;
+}
+
 .game {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  margin-top: 150px;
+}
+
+.p1{
+  color: rgb(250, 28, 28);
 }
 .player-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   margin-bottom: 20px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  font-size: 30px;
+  color: rgb(255, 187, 0);
 }
 .turn-info {
   margin-top: 20px;

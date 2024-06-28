@@ -17,10 +17,11 @@ export default {
   width: 100px;
   height: 100px;
   font-size: 24px;
-  border: 1px solid black;
+  border: 1px solid rgb(20, 101, 83);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #d1d0c3;
 }
 </style>
 

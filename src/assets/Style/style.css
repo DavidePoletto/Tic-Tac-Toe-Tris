@@ -1,3 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: url('/Users/davidepoletto/Programmazione/vue/my-first-vue-app/src/assets/IMG/background.jpg');
+    background-size: cover;
+    background-position: center;
 }
