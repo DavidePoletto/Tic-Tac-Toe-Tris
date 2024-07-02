@@ -29,7 +29,7 @@ export default {
       ],
       currentPlayer: 0,
       squares: Array(9).fill(null),
-      playersSet: false,
+      playersSet: true,
       gameOver: false,
       resultMessage: ''
     };
@@ -45,11 +45,12 @@ export default {
       this.players[1].name = player2;
       this.playersSet = true;
     },
+
     handleClick(index) {
       if (this.squares[index] || this.gameOver) {
         return;
       }
-      // Aggiorna direttamente l'array reattivo
+
       this.squares.splice(index, 1, this.currentPlayer === 0 ? 'X' : 'O');
       if (this.calculateWinner()) {
         this.gameOver = true;
@@ -73,6 +74,7 @@ export default {
         [0, 4, 8],
         [2, 4, 6]
       ];
+
       for (let i = 0; i < lines.length; i++) {
         const [a, b, c] = lines[i];
         if (this.squares[a] && this.squares[a] === this.squares[b] && this.squares[a] === this.squares[c]) {
@@ -81,6 +83,7 @@ export default {
       }
       return false;
     },
+    
     restartGame() {
       this.squares = Array(9).fill(null);
       this.currentPlayer = 0;
@@ -91,10 +94,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scooped>
 
 h1 {
-  color: rgb(39, 172, 128);
+  color: rgb(0, 0, 0);
   font-size: 50px;
   text-align: center;
 }
@@ -103,7 +106,6 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   margin-top: 150px;
 }
 

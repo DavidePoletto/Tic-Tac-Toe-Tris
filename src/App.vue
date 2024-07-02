@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <TrisGame />
+    <div class="image-container">
+      <img src="@/assets/IMG/background.jpg" alt="background">
+    </div>
+      <TrisGame />
   </div>
 </template>
 
@@ -15,10 +18,23 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  height: 100vh;
-  
+<style scoped>
+.image-container {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
 
 }
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 </style>

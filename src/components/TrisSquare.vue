@@ -1,6 +1,6 @@
 <template>
   <button class="square" @click="$emit('click')">
-    {{ value }}
+    <span :class="{'x-player': value === 'X', 'o-player': value === 'O'}">{{ value }}</span>
   </button>
 </template>
 
@@ -14,14 +14,28 @@ export default {
 
 <style scoped>
 .square {
+  z-index: 1;
   width: 100px;
   height: 100px;
   font-size: 24px;
-  border: 1px solid rgb(20, 101, 83);
+  border: 1px solid rgb(27, 162, 126);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d1d0c3;
+  background-color: #ffffff;
+}
+.x-player {
+  color: rgb(234, 16, 16);
+  font-size: 50px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.o-player {
+  color: rgb(255, 199, 32);
+  font-size: 50px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 </style>
+
 
