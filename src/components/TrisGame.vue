@@ -101,6 +101,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
 }
 
 .game {
@@ -113,6 +114,7 @@ h1 {
 .p1{
   color: rgb(250, 28, 28);
 }
+
 .player-info {
   display: flex;
   justify-content: space-around;
@@ -125,10 +127,18 @@ h1 {
   color: rgb(255, 187, 0);
   font-weight: 600;
 }
+
 .turn-info {
   margin-top: 20px;
   text-align: center;
   font-weight: 600;
   color: rgb(28, 175, 209);
 }
+
+@media (max-width: 768px){
+  .game{
+    margin-top: px;
+  }
+}
+
 </style>

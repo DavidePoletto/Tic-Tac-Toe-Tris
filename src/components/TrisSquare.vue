@@ -22,7 +22,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fcfcfc; 
+  background-color: transparent;
 }
 .x-player {
   color: rgb(234, 16, 16);
