@@ -1,10 +1,9 @@
+<h2 align="center">TIC TAC TOE - Vue.js Project</h2>
 <p align="center">
   <a href="https://github.com/DavidePoletto/Tic-Tac-Toe-Tris">
     <img src="src/assets/IMG/Screenshot 2024-07-03 alle 17.29.58.png" width="500px">
   </a>
 </p>
-
-<h2 align="center">TIC TAC TOE - Vue.js Project</h2>
 <p align="center">The Tic-Tac-Toe Game project is an interactive web application designed to provide users with a classic multiplayer gaming experience. Built using Vue.js, the game allows players to engage in strategic battles against each other in real-time.</p>
 
 
