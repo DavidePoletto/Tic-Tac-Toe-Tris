@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/davidepoletto/Tic-Tac-Toe-Tris">
-    <img src="Screenshot 2024-07-03 alle 17.29.58.png" width="100px">
+    <img src="src/IMG/Screenshot 2024-07-03 alle 17.29.58.png" width="100px">
   </a>
 </p>
 
@@ -21,9 +21,9 @@
 
 ### How to Run the Code
 1. Clone the repository to your local machine.
-2. Navigate into the project directory. ('cd <project-directory>')
-3. Install dependencies using npm. ('npm install')
-4. Start the development server to view the Tic-Tac-Toe game locally. ('npm run serve')
+2. Navigate into the project directory. (cd <project-directory>)
+3. Install dependencies using npm. (npm install)
+4. Start the development server to view the Tic-Tac-Toe game locally. (npm run serve)
 
 ### Authors
 
