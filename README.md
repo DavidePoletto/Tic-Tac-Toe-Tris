@@ -6,6 +6,8 @@
 </p>
 <p align="center">The Tic-Tac-Toe Game project is an interactive web application designed to provide users with a classic multiplayer gaming experience. Built using Vue.js, the game allows players to engage in strategic battles against each other in real-time.</p>
 
+### Try here:
+<p>https://trisapp.netlify.app/</p>
 
 ### Key Features
 -Multiplayer Mode: Enables two players to compete against each other on the same device.
