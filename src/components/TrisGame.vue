@@ -29,7 +29,7 @@ export default {
       ],
       currentPlayer: 0,
       squares: Array(9).fill(null),
-      playersSet: true,
+      playersSet: false,
       gameOver: false,
       resultMessage: ''
     };
@@ -97,9 +97,10 @@ export default {
 <style scooped>
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(28, 175, 209);
   font-size: 50px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .game {
@@ -122,8 +123,12 @@ h1 {
   left: 0;
   font-size: 30px;
   color: rgb(255, 187, 0);
+  font-weight: 600;
 }
 .turn-info {
   margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(28, 175, 209);
 }
 </style>

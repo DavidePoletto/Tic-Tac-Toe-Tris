@@ -29,6 +29,7 @@ export default {
 .board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  gap: 2px;
+  gap: 5px;
+  background-color: rgb(0, 0, 0);
 }
 </style>

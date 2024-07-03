@@ -18,11 +18,11 @@ export default {
   width: 100px;
   height: 100px;
   font-size: 24px;
-  border: 1px solid rgb(27, 162, 126);
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fcfcfc; 
 }
 .x-player {
   color: rgb(234, 16, 16);
