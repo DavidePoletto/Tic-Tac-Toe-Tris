@@ -18,13 +18,12 @@
 * [JavaScript]()
 * [HTML]()
 * [CSS]()
-* [Node]
 
 ### How to Run the Code
-1.Clone the repository to your local machine.
-2.Navigate into the project directory. (cd <project-directory>)
-3.Install dependencies using npm. (npm install)
-4.Start the development server to view the Tic-Tac-Toe game locally. (npm run serve)
+1. Clone the repository to your local machine.
+2. Navigate into the project directory. ('cd <project-directory>')
+3. Install dependencies using npm. ('npm install')
+4. Start the development server to view the Tic-Tac-Toe game locally. ('npm run serve')
 
 ### Authors
 
