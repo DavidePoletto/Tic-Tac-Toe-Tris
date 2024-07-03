@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/DavidePoletto/Tic-Tac-Toe-Tris">
-    <img src="src/assets/IMG/Screenshot 2024-07-03 alle 17.29.58.png" width="100px">
+    <img src="src/assets/IMG/Screenshot 2024-07-03 alle 17.29.58.png" width="500px">
   </a>
 </p>
 
